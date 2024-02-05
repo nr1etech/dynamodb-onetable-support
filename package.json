@@ -1,7 +1,7 @@
 {
   "name": "@nr1e/dynamodb-onetable-support",
   "description": "Supporting functionality and patterns for use with dynamodb-onetable",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "type": "module",
   "author": "NR1E, Inc.",
   "publishConfig": {
