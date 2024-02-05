@@ -1,1 +1,1 @@
-export * from './one-table.repository';
+export * from './one-table.repository.js';

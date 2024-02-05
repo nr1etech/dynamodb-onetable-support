@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.0.3
     version: 0.0.3
   '@nr1e/dynamodb-support':
-    specifier: ^0.0.2
-    version: 0.0.2(@aws-sdk/client-dynamodb@3.506.0)(@aws-sdk/lib-dynamodb@3.506.0)(@nr1e/commons@0.0.3)(@nr1e/logging@0.0.5)
+    specifier: ^0.0.3
+    version: 0.0.3(@aws-sdk/client-dynamodb@3.506.0)(@aws-sdk/lib-dynamodb@3.506.0)(@nr1e/commons@0.0.3)(@nr1e/logging@0.0.5)
   '@nr1e/logging':
     specifier: ^0.0.5
     version: 0.0.5(pino@8.18.0)
@@ -1293,8 +1293,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@nr1e/dynamodb-support@0.0.2(@aws-sdk/client-dynamodb@3.506.0)(@aws-sdk/lib-dynamodb@3.506.0)(@nr1e/commons@0.0.3)(@nr1e/logging@0.0.5):
-    resolution: {integrity: sha512-eXTGZvUhd0efA0ZwAGZjqiKK1kJUr+fxotm7O4L06j50fuHJls0cCw3m3A8dKPuFgl+/qJn1yNX/9IaBR5OfFw==}
+  /@nr1e/dynamodb-support@0.0.3(@aws-sdk/client-dynamodb@3.506.0)(@aws-sdk/lib-dynamodb@3.506.0)(@nr1e/commons@0.0.3)(@nr1e/logging@0.0.5):
+    resolution: {integrity: sha512-FUM98zAdARfpme/Do5WQUpjnWLdvPtomK4r8UWRhXxwOu2U42nmsqOkWFPU8KDljA7HPEVIrcEH0BROWTm1W9w==}
     peerDependencies:
       '@aws-sdk/client-dynamodb': '>=3.506.0'
       '@aws-sdk/lib-dynamodb': '>=3.506.0'

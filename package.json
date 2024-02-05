@@ -39,14 +39,14 @@
   },
   "dependencies": {
     "@nr1e/commons": "^0.0.3",
-    "@nr1e/dynamodb-support": "^0.0.2",
+    "@nr1e/dynamodb-support": "^0.0.3",
     "@nr1e/logging": "^0.0.5",
     "dynamodb-onetable": "^2.7.1",
     "tslib": "^2.6.2"
   },
   "peerDependencies": {
     "@nr1e/commons": ">=0.0.3",
-    "@nr1e/dynamodb-support": ">=0.0.2",
+    "@nr1e/dynamodb-support": ">=0.0.3",
     "@nr1e/logging": ">=0.0.5",
     "dynamodb-onetable": ">=2.7.1"
   },
