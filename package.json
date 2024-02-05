@@ -27,6 +27,7 @@
     "site": "typedoc --out site \"src/**/*.ts\" --exclude \"src/**/*.test.ts\""
   },
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.133",
     "@types/jest": "^29.5.10",
     "@types/node": "20.8.2",
     "gts": "^5.2.0",
