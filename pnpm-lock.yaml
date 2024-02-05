@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.0.3
     version: 0.0.3
   '@nr1e/dynamodb-support':
-    specifier: ^0.0.1
-    version: 0.0.1(@nr1e/commons@0.0.3)(@nr1e/logging@0.0.5)
+    specifier: ^0.0.2
+    version: 0.0.2(@aws-sdk/client-dynamodb@3.506.0)(@aws-sdk/lib-dynamodb@3.506.0)(@nr1e/commons@0.0.3)(@nr1e/logging@0.0.5)
   '@nr1e/logging':
     specifier: ^0.0.5
     version: 0.0.5(pino@8.18.0)
@@ -1290,9 +1290,11 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@nr1e/dynamodb-support@0.0.1(@nr1e/commons@0.0.3)(@nr1e/logging@0.0.5):
-    resolution: {integrity: sha512-3qPhXL7jKjI4ceOm90+t02cE2vwGJU4d2mJ4GVC22asc2lsdueXjId0DPqEKjKGUZrQUyl/wz5lPGco8HYDMpA==}
+  /@nr1e/dynamodb-support@0.0.2(@aws-sdk/client-dynamodb@3.506.0)(@aws-sdk/lib-dynamodb@3.506.0)(@nr1e/commons@0.0.3)(@nr1e/logging@0.0.5):
+    resolution: {integrity: sha512-eXTGZvUhd0efA0ZwAGZjqiKK1kJUr+fxotm7O4L06j50fuHJls0cCw3m3A8dKPuFgl+/qJn1yNX/9IaBR5OfFw==}
     peerDependencies:
+      '@aws-sdk/client-dynamodb': '>=3.506.0'
+      '@aws-sdk/lib-dynamodb': '>=3.506.0'
       '@nr1e/commons': '>=0.0.3'
       '@nr1e/logging': '>=0.0.5'
     dependencies:
@@ -1301,8 +1303,6 @@ packages:
       '@nr1e/commons': 0.0.3
       '@nr1e/logging': 0.0.5(pino@8.18.0)
       tslib: 2.6.2
-    transitivePeerDependencies:
-      - aws-crt
     dev: false
 
   /@nr1e/logging@0.0.5(pino@8.18.0):
