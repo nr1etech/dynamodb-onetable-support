@@ -5,7 +5,12 @@ test('Test', () => {
     id: string;
     name: string;
   }
-  class TestRepository extends OneTableRepository<Test> {
+
+  interface TestId {
+    id: string;
+  }
+
+  class TestRepository extends OneTableRepository<Test, TestId> {
     constructor() {
       super({
         schema: {

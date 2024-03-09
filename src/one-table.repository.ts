@@ -21,7 +21,7 @@ export interface OneTableRepositoryConfig<T> extends DynamoDBRepositoryConfig {
   entityParametersFn?: (data: T) => EntityParameters;
 }
 
-export abstract class OneTableRepository<T> extends DynamoDBRepository {
+export abstract class OneTableRepository<T, I> extends DynamoDBRepository {
   protected table: Table;
   protected model;
   protected entityParametersFn: (data: T) => EntityParameters;
@@ -49,11 +49,23 @@ export abstract class OneTableRepository<T> extends DynamoDBRepository {
     await this.model.update(toEntityParameters(data));
   }
 
-  async delete(id: string): Promise<void> {
+  async delete(id: I): Promise<void> {
     await this.model.remove({
       Detail: {
-        id,
+        ...id,
       },
     });
+  }
+
+  async get(id: I): Promise<T | null> {
+    const result = await this.model.get({
+      Detail: {
+        ...id,
+      },
+    });
+    if (result) {
+      return result.Detail;
+    }
+    return null;
   }
 }
