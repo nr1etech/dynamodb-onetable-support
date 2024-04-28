@@ -1,4 +1,5 @@
-import {OneTableRepository} from './one-table.repository';
+import {test, expect} from 'vitest';
+import {OneTableRepository} from './one-table.repository.mjs';
 
 test('Test', () => {
   interface Test {

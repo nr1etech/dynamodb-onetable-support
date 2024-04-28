@@ -1,4 +1,4 @@
-import {OneSchema, Table} from 'dynamodb-onetable';
+import {Model, OneSchema, Table} from 'dynamodb-onetable';
 import {
   DynamoDBRepository,
   DynamoDBRepositoryConfig,
@@ -23,7 +23,7 @@ export interface OneTableRepositoryConfig<T> extends DynamoDBRepositoryConfig {
 
 export abstract class OneTableRepository<T, I> extends DynamoDBRepository {
   protected table: Table;
-  protected model;
+  protected model: any;
   protected entityParametersFn: (data: T) => EntityParameters;
   protected constructor(config: OneTableRepositoryConfig<T>) {
     super(config);
