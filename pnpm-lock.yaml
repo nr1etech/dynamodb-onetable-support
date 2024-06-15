@@ -12,11 +12,11 @@ importers:
         specifier: ^0.1.1
         version: 0.1.2
       '@nr1e/dynamodb-support':
-        specifier: ^0.2.0
-        version: 0.2.1(@aws-sdk/client-dynamodb@3.598.0)(@aws-sdk/lib-dynamodb@3.598.0(@aws-sdk/client-dynamodb@3.598.0))(@nr1e/commons@0.1.2)(@nr1e/logging@1.0.1(pino@9.2.0))
+        specifier: ^0.2.2
+        version: 0.2.2(@aws-sdk/client-dynamodb@3.598.0)(@aws-sdk/lib-dynamodb@3.598.0(@aws-sdk/client-dynamodb@3.598.0))(@nr1e/commons@0.1.2)(@nr1e/logging@1.1.0(pino@9.2.0))
       '@nr1e/logging':
-        specifier: ^1.0.0
-        version: 1.0.1(pino@9.2.0)
+        specifier: ^1.1.0
+        version: 1.1.0(pino@9.2.0)
       dynamodb-onetable:
         specifier: ^2.7.2
         version: 2.7.2
@@ -435,16 +435,16 @@ packages:
   '@nr1e/commons@0.1.2':
     resolution: {integrity: sha512-tXqXAnGNcsZsxCh3DYJv1zTz+K5/cz1cdcaEgPSQXtVa8QkyB71yBg44b9IGQpjBQeMZz4MrrW+mWeDZJxz8lw==}
 
-  '@nr1e/dynamodb-support@0.2.1':
-    resolution: {integrity: sha512-qPpsMbNJ74znvsSRjzhuH06DyT3sYJ1hqXpEH2dBjd2r4EoicBaBrCjs8Bb1cpFb/+yO/KhmgsM035ZzlMMskA==}
+  '@nr1e/dynamodb-support@0.2.2':
+    resolution: {integrity: sha512-6eIO2McmPTPe7tdzeQIhi/YOOvzWEitDbZxOfrMRQFjrYG8SxESUaOgXVMz4Y3eL6gQDT5OKgKfPAMQ2h8fjuA==}
     peerDependencies:
       '@aws-sdk/client-dynamodb': ^3.598.0
       '@aws-sdk/lib-dynamodb': ^3.598.0
       '@nr1e/commons': ^0.1.2
-      '@nr1e/logging': ^1.0.1
+      '@nr1e/logging': ^1.1.0
 
-  '@nr1e/logging@1.0.1':
-    resolution: {integrity: sha512-tAwiEsIOvRtijSCUfxYhq00jlBb8U61yo8HnsOiosJ12TnnYBXpPNL7TqyBZzoRowk1BsbcNxGs4i2U05yykqA==}
+  '@nr1e/logging@1.1.0':
+    resolution: {integrity: sha512-b0Y4kDwbVn4pfHaRNLGWjOz/Jf3rpk6yasLrCYszLc/BZYfy9Eah77JuXTisv3PDnMD4V1k+1LjXvxoQ3ZGzHA==}
     peerDependencies:
       pino: ^9.2.0
 
@@ -2725,15 +2725,15 @@ snapshots:
     dependencies:
       tslib: 2.6.3
 
-  '@nr1e/dynamodb-support@0.2.1(@aws-sdk/client-dynamodb@3.598.0)(@aws-sdk/lib-dynamodb@3.598.0(@aws-sdk/client-dynamodb@3.598.0))(@nr1e/commons@0.1.2)(@nr1e/logging@1.0.1(pino@9.2.0))':
+  '@nr1e/dynamodb-support@0.2.2(@aws-sdk/client-dynamodb@3.598.0)(@aws-sdk/lib-dynamodb@3.598.0(@aws-sdk/client-dynamodb@3.598.0))(@nr1e/commons@0.1.2)(@nr1e/logging@1.1.0(pino@9.2.0))':
     dependencies:
       '@aws-sdk/client-dynamodb': 3.598.0
       '@aws-sdk/lib-dynamodb': 3.598.0(@aws-sdk/client-dynamodb@3.598.0)
       '@nr1e/commons': 0.1.2
-      '@nr1e/logging': 1.0.1(pino@9.2.0)
+      '@nr1e/logging': 1.1.0(pino@9.2.0)
       tslib: 2.6.3
 
-  '@nr1e/logging@1.0.1(pino@9.2.0)':
+  '@nr1e/logging@1.1.0(pino@9.2.0)':
     dependencies:
       pino: 9.2.0
       pino-abstract-transport: 1.2.0

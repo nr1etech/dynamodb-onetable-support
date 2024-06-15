@@ -38,15 +38,15 @@
   },
   "dependencies": {
     "@nr1e/commons": "^0.1.1",
-    "@nr1e/dynamodb-support": "^0.2.0",
-    "@nr1e/logging": "^1.0.0",
+    "@nr1e/dynamodb-support": "^0.2.2",
+    "@nr1e/logging": "^1.1.0",
     "dynamodb-onetable": "^2.7.2",
     "tslib": "^2.6.3"
   },
   "peerDependencies": {
     "@nr1e/commons": "^0.1.2",
-    "@nr1e/dynamodb-support": "^0.2.1",
-    "@nr1e/logging": "^1.0.1",
+    "@nr1e/dynamodb-support": "^0.2.2",
+    "@nr1e/logging": "^1.1.0",
     "dynamodb-onetable": "^2.7.2"
   },
   "exports": {
