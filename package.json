@@ -31,7 +31,7 @@
     "@types/node": "20.14.2",
     "gts": "^5.3.1",
     "ts-node": "^10.9.2",
-    "typedoc": "^0.25.13",
+    "typedoc": "^0.26.3",
     "typescript": "~5.4.5",
     "@vitest/coverage-v8": "^1.6.0",
     "vitest": "^1.6.0"
